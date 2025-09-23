@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO-APP</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+<body class="bg-[#222]">
+    
+    <div class="wrapper text-white my-9 mx-auto h-auto text-center p-7 flex flex-col items-center max-w-7xl">
+        <h1 class="text-6xl font-[800] font-sans text-rose-500 mb-5">TODO LIST</h1>
+        <div class="todo py-5 flex items-center gap-3 relative w-[100%]">
+            <input type="text" placeholder="Isi tugas di sini..." id="inputTask" class="border rounded-[1000vh] p-4 w-[100%] text-2xl focus:outline-none">
+            <button id="addBtn" class="border rounded-full p-4 bg-rose-500 hover:cursor-pointer hover:brightness-125 px-8 absolute right-0 text-2xl font-semibold">ADD</button>
+        </div>
+
+        <ul class="todoList w-[100%]">
+            <li class="todoLi flex justify-between my-2 border p-3 rounded-[1000vh] bg-[#333] hover:bg-[#444] relative text-xl">
+                <input type="checkbox">
+                <span class="todoText">nugas</span>
+                <button>hapus</button>
+            </li>
+            <li class="todoLi flex justify-between my-2 border p-3 rounded-[1000vh] bg-[#333] hover:bg-[#444] relative text-xl">
+                <input type="checkbox">
+                <span class="todoText">nugas</span>
+                <button>hapus</button>
+            </li>
+            <li class="todoLi flex justify-between my-2 border p-3 rounded-[1000vh] bg-[#333] hover:bg-[#444] relative text-xl">
+                <input type="checkbox">
+                <span class="todoText">nugas</span>
+                <button>hapus</button>
+            </li>
+        </ul>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

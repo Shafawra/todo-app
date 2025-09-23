@@ -1,0 +1,7 @@
+.todoLi input[type="checkbox"] {
+    text-decoration: line-through;
+}
+.todoLi input[type="checkbox"]:checked ~ .todoText {
+    text-decoration: line-through;
+    color: gray;
+}
