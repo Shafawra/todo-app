@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TODO-APP</title>
-    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
 </head>
@@ -17,13 +16,7 @@
             <button id="addBtn" class="border rounded-full p-4 bg-rose-500 hover:cursor-pointer hover:brightness-125 px-8 absolute right-0 text-2xl font-semibold">ADD</button>
         </div>
 
-        <ul class="todoList w-[100%]">
-            <li class="todoLi flex justify-between my-2 border p-3 rounded-[1000vh] bg-[#333] hover:bg-[#444] relative text-xl pr-5 pl-5">
-                <input type="checkbox">
-                <span class="todoText">nugas</span>
-                <button>hapus</button>
-            </li>
-        </ul>
+        <ul id="todoList" class=" w-[100%]"> </ul>
     </div>
 
     <script src="index.js"></script>
