@@ -56,4 +56,4 @@ input.addEventListener("keyup", (e) => {
 
 resetBtn.addEventListener("click", () => {
     todoList.remove();
-});
+})
