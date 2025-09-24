@@ -13,8 +13,14 @@
         <h1 class="text-6xl font-[800] font-sans text-rose-500 mb-5">TODO LIST</h1>
         <div class="todo py-5 flex items-center gap-3 relative w-[100%]">
             <input type="text" placeholder="Isi tugas di sini..." id="inputTask" class="border rounded-[1000vh] p-4 w-[100%] text-2xl focus:outline-none">
-            <button id="addBtn" class="border rounded-full p-4 bg-rose-500 hover:cursor-pointer hover:brightness-125 px-8 absolute right-0 text-2xl font-semibold">ADD</button>
+            <div class="btn flex gap-0 absolute right-0">
+                <button class="border rounded-full p-4 bg-rose-500 hover:cursor-pointer hover:brightness-125 px-8 text-2xl font-semibold" id="addBtn">ADD</button>
+                <button class="border rounded-full p-4 bg-rose-500 hover:cursor-pointer hover:brightness-125 px-8 text-2xl font-semibold" id="resetBtn">RESET</button>
+            </div>
+
+            <!-- <button id="addBtn" class="border rounded-full p-4 bg-rose-500 hover:cursor-pointer hover:brightness-125 px-8 absolute right-0 text-2xl font-semibold">ADD</button> -->
         </div>
+
 
         <ul id="todoList" class=" w-[100%]"></ul>
     </div>

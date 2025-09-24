@@ -1,6 +1,7 @@
 const input = document.getElementById("inputTask");
 const btnAdd = document.getElementById("addBtn");
 const todoList = document.getElementById("todoList");
+const resetBtn = document.getElementById("resetBtn");
 
 // bikin function tuk btnAdd
 function todo() {
@@ -51,4 +52,8 @@ input.addEventListener("keyup", (e) => {
     if(e.key === "Enter"){
         todo();
     }
+});
+
+resetBtn.addEventListener("click", () => {
+    todoList.remove();
 });
